@@ -51,3 +51,36 @@ nav button#join {
     background-color: #ffc400;
     margin-right: 20px;
 }
+/* hero section */
+section#hero {
+    display: flex;
+    padding: 20px 5%;
+    background-color: #f4f6fc;
+}
+
+section#hero > div {
+    flex: 1;
+}
+section#hero > div img {
+    width: 100%;
+}
+section#hero .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+section#hero .details h1 {
+    color: #1f2c46;
+    font-size: 2em;
+    font-weight: bold;
+}
+section#hero .details button {
+    padding: 15px 30px;
+    background-color: #3359df;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 20px 0px;
+
+}
